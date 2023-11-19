@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>GoSpeed</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/18915e59dc.js" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -14,11 +15,15 @@
           <a href="#"><img src="logo.png" alt="" /></a>
         </div>
         <ul id="nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#about"  class="active">About</a></li>
+          <li><a href="#" id="active">Home</a></li>
+          <li><a href="#about"  >About</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#product">Product</a></li>
-          <li><a href="#testi">Testimonials</a></li>
+          <li class="drpdwn"><a href="#testi">Testimonials</a>
+          <div class="drpbtn">
+            <a href="#news">News</a>
+          </div>
+          </li>
           <li><a href="#contact-form">Contact</a></li>
           <a href="#" id="close"><i class="fa-sharp fa-solid fa-xmark"></i></a>
         </ul>
@@ -63,7 +68,7 @@
       </div>
       <div class="serv-box">
         <div class="box-cont">
-          <i class="fa-solid fa-network-wired" style="color: #ff1000;"></i>
+          <i class="fa-solid fa-network-wired" style="color: #EFBB3C;"></i>
           <div class="box-txt">
             <h1>Konektivitas Tanpa Batas</h1>
             <p class="cont">
@@ -72,7 +77,7 @@
           </div>
         </div>
         <div class="box-cont">
-          <i class="fa-solid fa-microchip" style="color: #ff1000;"></i>
+          <i class="fa-solid fa-microchip" style="color: #EFBB3C;"></i>
           <div class="box-txt">
             <h1>Inovasi Teknologi</h1>
             <p class="cont">
@@ -82,7 +87,7 @@
           </div>
         </div>
         <div class="box-cont">
-          <i class="fa-solid fa-people-group" style="color: #ff1000;"></i>
+          <i class="fa-solid fa-people-group" style="color:#EFBB3C;"></i>
           <div class="box-txt">
             <h1>Teknisi Handal</h1>
             <p class="cont">
@@ -92,7 +97,7 @@
           </div>
         </div>
         <div class="box-cont">
-          <i class="fa-solid fa-solar-panel" style="color: #ff1000;"></i>
+          <i class="fa-solid fa-solar-panel" style="color: #EFBB3C;"></i>
           <div class="box-txt">
             <h1>Green Technology</h1>
             <p class="cont">
@@ -105,11 +110,6 @@
       </div>
     </section>
     <section id="product">
-      <div class="pro-des">
-        <div id="des">
-        <h1>Produk Kami</h1>
-        <p>Harga terbaik untuk kamu yang paling baik😊</p>
-      </div></div>
       <div class="line"></div>
       <div class="paket">
 <div id="btn">
@@ -166,74 +166,80 @@
 <button id="btn-ord">Order Now</button>
 </div></div>
       </div>
+      <div class="pro-des">
+        <div id="des">
+        <h1>Produk Kami</h1>
+        <p>Harga terbaik untuk kamu yang paling baik😊</p>
+      </div></div>
+      
     </section>
     <section id="news">
     
    <!-- Slideshow container -->
-<div class="slideshow-container">
-
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <div class="img-news">
-        <img src="https://img.freepik.com/free-vector/flat-wifi-concept_23-2148177486.jpg?w=740&t=st=1700361606~exp=1700362206~hmac=d5f42aca3f6ed8f450a8a5a273979845ca41e395c2291f25d8382264fe31c53e" alt="" />
-        <div class="desc-news">
-          <h1>PUBG</h1>
-          <p>Our site uses cookies and similar technologies to understand and improve the overall browsing experience. Rasakan Sensasi perang bersama kawanmu</p>
-          <div class="arr">
-            <p>Read More</p>
-            <i class="fa-solid fa-circle-right" style="color: #ff1000;"></i>
-            
-          </div>
-        </div>
-      </div>
-    
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <div class="img-news">
-        <img src="https://img.freepik.com/free-vector/flat-wifi-zone-concept-with-signal_23-2148194318.jpg?w=740&t=st=1700361664~exp=1700362264~hmac=affdc08e6a4ba51aee8b98a802f787c42972c4acd6a367177e6b12c035d910f7" alt="" />
-        <div class="desc-news">
-          <h1>PUBG</h1>
-          <p>Our site uses cookies and similar technologies to understand and improve the overall browsing experience. Rasakan Sensasi perang bersama kawanmu</p>
-          <div class="arr">
-            <p>Read More</p>
-            <i class="fa-solid fa-circle-right" style="color: #ff1000;"></i>
-            
-          </div>
-        </div>
-      </div>
- 
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <div class="img-news">
-        <img src="https://img.freepik.com/free-vector/flat-wifi-concept_23-2148182406.jpg?w=740&t=st=1700361709~exp=1700362309~hmac=ac08baa9c29faf4a1bc0f89a0aca5fcb28b00baa556523f29c4f729de4d3a258" alt="" />
-        <div class="desc-news">
-          <h1>PUBG</h1>
-          <p>Our site uses cookies and similar technologies to understand and improve the overall browsing experience. Rasakan Sensasi perang bersama kawanmu</p>
-          <div class="arr">
-            <p>Read More</p>
-            <i class="fa-solid fa-circle-right" style="color: #ff1000;"></i>
-            
-          </div>
-        </div>
-      </div>
-    
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
 <div class="pro-des">
   <div id="des">
   <h1>SPECIAL <span>PROMO</span> BUAT KAMU!!!</h1>
   <p>Pastikan kamu tidak ketinggalan info apapun dari kami</p>
 </div>
 
+</div>
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <a href="artikel1.html"><div class="img-news">
+        <img src="https://img.freepik.com/free-vector/flat-wifi-concept_23-2148177486.jpg?w=740&t=st=1700361606~exp=1700362206~hmac=d5f42aca3f6ed8f450a8a5a273979845ca41e395c2291f25d8382264fe31c53e" alt="" />
+        <div class="desc-news">
+          <h1>Menyambut Natal dengan Kecepatan Baru: Promo Kenaikan 50 Mbps</h1>
+          <p>Hanya dengan menambah Rp. 49.900, nikmati kenaikan kecepatan internet hingga 50 Mbps</p>
+          <div class="arr">
+            <p>Read More</p>
+            <i class="fa-solid fa-circle-right" style="color: #EFBB3C;"></i>
+            
+          </div>
+        </div>
+      </div></a>
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <a href="artikel2.html"><div class="img-news">
+        <img src="https://img.freepik.com/free-vector/flat-wifi-zone-concept-with-signal_23-2148194318.jpg?w=740&t=st=1700361664~exp=1700362264~hmac=affdc08e6a4ba51aee8b98a802f787c42972c4acd6a367177e6b12c035d910f7" alt="" />
+        <div class="desc-news">
+          <h1>Promo Ulang Tahun: Nikmati Hiburan Lebih dengan Diskon Tambahan 50 Channel TV Hanya Rp. 29.900!</h1>
+          <p>Sebagai ungkapan terima kasih atas dukungan Anda selama ini, kami memberikan penawaran spesial...</p>
+          <div class="arr">
+            <p>Read More</p>
+            <i class="fa-solid fa-circle-right" style="color: #EFBB3C;"></i>
+            
+          </div>
+        </div>
+      </div></a>
+ 
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <a href="artikel3.html"><div class="img-news">
+        <img src="https://img.freepik.com/free-vector/flat-wifi-concept_23-2148182406.jpg?w=740&t=st=1700361709~exp=1700362309~hmac=ac08baa9c29faf4a1bc0f89a0aca5fcb28b00baa556523f29c4f729de4d3a258" alt="" />
+        <div class="desc-news">
+          <h1>Menghadirkan Terobosan Digital: Mendalami Layanan Unggulan dari GoSpeed</h1>
+          <p>Di era digital yang terus berkembang, keberadaan penyedia layanan menjadi semakin penting...</p>
+          <div class="arr">
+            <p>Read More</p>
+            <i class="fa-solid fa-circle-right" style="color: #EFBB3C;"></i>
+            
+          </div>
+        </div>
+      </div></a>
+    
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
 </div>
     </section>
     <section id="about">
@@ -251,7 +257,7 @@
      <br> <p>Di sinilah internet lebih dari sekadar sinyal. Ini tentang menghubungkan, berbagi, dan mewujudkan potensi tak terbatas. Kami mengundang Anda untuk menjelajahi dunia digital dengan GoSpeed. Mari kita bangun masa depan bersama.</p>
      <div class="arr">
       <p>Read More</p>
-      <i class="fa-solid fa-arrow-right-long" style="color: #000000;"></i>
+      <i class="fa-solid fa-arrow-right-long" style="color: #EFBB3C;"></i>
     </div>
     </div>
   
@@ -314,7 +320,7 @@
 
             <input type="email" placeholder="Email" />
 
-           <textarea name="Message" id="" cols="30" rows="1"></textarea>
+           <textarea name="Message" id="" cols="30" rows="1" placeholder="Pesan"></textarea>
         </div>
         <button>Submit</button>
       </div>
@@ -327,7 +333,7 @@
           </div>
           <div class="detail">
             <i class="fa-solid fa-envelope" style="color: #ffffff"></i>
-            <p>blablabla@gmail.com</p>
+            <p>Gospeed@gmail.com</p>
           </div>
           <div class="detail">
             <i class="fa-solid fa-map-location-dot" style="color: #ffffff"></i>
@@ -343,6 +349,7 @@
     </section>
     <footer>
       <div class="foll">
+        <img src="logo.png" width="150" height="75">
         <h4>Follow us</h4>
         <div class="link">
           <a id="ig" href="twitter.com"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a>
